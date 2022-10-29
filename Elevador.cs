@@ -57,7 +57,8 @@ class ELEVATORWELL
          else if(piso<1||piso>15){
             Console.WriteLine("No puede ir más allá del tope");
             while(piso<1||piso>15){
-                Console.Write("Introduzca a que piso quiere ir");
+                Console.Write("\n");
+                Console.Write("Introduzca a que piso quiere ir: ");
                 piso=int.Parse(Console.ReadLine());
             }
             Console.WriteLine("\nSe movió exitósamente de piso");
