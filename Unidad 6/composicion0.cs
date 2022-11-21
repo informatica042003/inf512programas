@@ -15,7 +15,7 @@ class Cuarto{
 
     public void getCuarto(){
         Console.WriteLine("\n" + tipo + "\n" + area + "Metros Cuadrados\n" + 
-                 amueblado + "\nCantidad" + cantidad);
+                 amueblado + "\nCantidad " + cantidad);
     }
 }
 
