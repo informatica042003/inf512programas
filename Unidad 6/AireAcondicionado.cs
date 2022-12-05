@@ -19,8 +19,10 @@ class AireAcondicionado{
             while((marca.ToUpper())!="SAMSUNG" && (marca.ToUpper())!="HAIER" && (marca.ToUpper())!="NEDOCA"){
             Console.Write("\n Introduzca su opción de nuevo \n(Marcas disponibles: SAMSUNG, HAIER, NEDOCA): ");
             marca = Console.ReadLine();
+            this.marca = marca.ToUpper();
         }
         }
+        this.marca = marca.ToUpper();
               
     }
 
